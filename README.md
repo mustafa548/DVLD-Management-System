@@ -58,9 +58,8 @@ The system is designed using a **3-Tier Architecture** to separate concerns, ens
 
 ## Database & Relational Schema
 
-Below is the Relational Schema Diagram showing the database design, tables, primary/foreign keys, and cardinalities:
-
-![Relational Schema](./RelationalSchema.png) <!-- استبدل اسم الصورة باسم الصورة لديك داخل الـ Repo -->
+[![Relational Schema](./Relational_Schema.png)](https://raw.githubusercontent.com/mustafa548/DVLD-Management-System/main/Relational_Schema.png)
+*(Click on the image above to view it in full high resolution)*
 
 ## Tech Stack & Tools
 
@@ -77,5 +76,5 @@ You can download the App to test and run the application locally:
 
  **[Download DVLD Setup Application](https://mustafa548.github.io/Download_DVLD_App/)**
   - You Can Use These Information For Test:
-  - **User Name: ** User1
-  - **Password: ** 1234
+  - **User Name:** User1
+  - **Password:** 1234
