@@ -8,7 +8,6 @@ A comprehensive, desktop-based enterprise application built to automate and mana
 - [Database & Relational Schema](#database--relational-schema)
 - [Tech Stack & Tools](#tech-stack--tools)
 - [Live Demo & Download](#live-demo--download)
-- [Installation & Setup](#installation--setup)
 
 ## Architecture Overview
 
