@@ -3,13 +3,12 @@
 A comprehensive, desktop-based enterprise application built to automate and manage the core operations of the Driving & Vehicle Licensing Department (DVLD). Built with **C# (.NET)**, **Windows Forms**, and **SQL Server / Supabase**, following a strict **3-Tier Architecture** pattern.
 
 ## Table of Contents
-- [Architecture Overview](#-architecture-overview)
-- [Key Features](#-key-features)
-- [Database & Relational Schema](#-database--relational-schema)
-- [Tech Stack & Tools](#-tech-stack--tools)
-- [Live Demo & Download](#-live-demo--download)
-- [Test Credentials](#-test-credentials)
-- [Installation & Setup](#-installation--setup)
+- [Architecture Overview](#architecture-overview)
+- [Key Features](#key-features)
+- [Database & Relational Schema](#database--relational-schema)
+- [Tech Stack & Tools](#tech-stack--tools)
+- [Live Demo & Download](#live-demo--download)
+- [Installation & Setup](#installation--setup)
 
 ## Architecture Overview
 
