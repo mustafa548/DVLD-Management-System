@@ -2,8 +2,6 @@
 
 A comprehensive, desktop-based enterprise application built to automate and manage the core operations of the Driving & Vehicle Licensing Department (DVLD). Built with **C# (.NET)**, **Windows Forms**, and **SQL Server / Supabase**, following a strict **3-Tier Architecture** pattern.
 
-**To Show All Features:** Right Mouse Click on any Row
-
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
 - [Key Features](#key-features)
@@ -76,5 +74,6 @@ You can download the App to test and run the application locally:
 
  **[Download DVLD Setup Application](https://mustafa548.github.io/Download_DVLD_App/)**
   - You Can Use These Information For Test:
-  - **User Name:** User1
+  - **User Name:** Admin
   - **Password:** 1234
+  - **To Show All Features:** Right Mouse Click on any Row
