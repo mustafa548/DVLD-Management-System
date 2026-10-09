@@ -107,6 +107,7 @@ namespace DVLD
     
             if (_Mode == enMode.enAddNewMode)
             {
+                dplCountries.SelectedItem = "Egypt";
                 lbTitle.Text = "Add New Person";
                 _Person = new clsPerson();
                 return;

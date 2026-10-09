@@ -96,6 +96,12 @@ namespace DVLD
         {
             int UserID = (int)dgvUsers.GridView.CurrentRow.Cells[0].Value;
 
+            if (clsUser.Find(UserID).UserName == "Admin")
+            {
+                MessageBox.Show("Can't Update This Username Or Activity", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             frmAddAndEditUser AddAndEditUserForm = new frmAddAndEditUser(UserID);
             AddAndEditUserForm.ShowDialog();
 

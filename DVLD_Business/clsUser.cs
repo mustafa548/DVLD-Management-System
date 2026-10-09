@@ -109,6 +109,9 @@ namespace DVLD_Business
 
         public static bool DeleteUser(int UserID)
         {
+            if (clsUser.Find(UserID).UserName == "Admin")
+                return false;
+
             return clsDataAccessUser.DeleteUser(UserID);
         }
 
@@ -121,6 +124,9 @@ namespace DVLD_Business
 
         private bool _UpdateUser()
         {
+            if (this.UserName != "Admin" || !this.IsActive)
+                return false;
+
             return clsDataAccessUser.UpdateUserInfo(this.UserID, this.UserName, this.PasswordHash, this.PersonID, this.IsActive, this.Attempts, this.PasswordBlockedUntil, this.LastAttemptAt);
         }
 

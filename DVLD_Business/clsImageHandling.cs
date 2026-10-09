@@ -30,7 +30,7 @@ namespace DVLD_Business
 
             try
             {
-                string requestUrl = $"{SupabaseUrl}/storage/v1/object/public/{BucketName}/{ImageName}";
+                string requestUrl = $"{SupabaseUrl}/storage/v1/object/{BucketName}/{ImageName}";
                 byte[] fileBytes = File.ReadAllBytes(source);
 
                 using (HttpClient client = new HttpClient())
