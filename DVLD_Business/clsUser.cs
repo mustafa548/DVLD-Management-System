@@ -124,7 +124,7 @@ namespace DVLD_Business
 
         private bool _UpdateUser()
         {
-            if (this.UserName != "Admin" || !this.IsActive)
+            if (this.UserName == "Admin")
                 return false;
 
             return clsDataAccessUser.UpdateUserInfo(this.UserID, this.UserName, this.PasswordHash, this.PersonID, this.IsActive, this.Attempts, this.PasswordBlockedUntil, this.LastAttemptAt);
